@@ -17,7 +17,7 @@ root.render(
 setInterval(() =>{
   root.render(
     <>
-      <p>Hello world</p>
+      <p>簡易的な時計のテスト</p>
       <p>現在時刻: {(new Date()).toLocaleString()}</p>
     </>
   );
