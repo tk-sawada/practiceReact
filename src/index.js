@@ -1,17 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import MyHello from './MyHello';
+import './EventBasic';
+//import MyHello from './MyHello';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
+import EventBasic from './EventBasic';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
+
+root.render(
+  <EventBasic type="time" />
+);
+
+/*
 <MyHello myName={{name: '鈴木', age: 48}} />
 
 root.render(
   <MyHello myName />
 )
+*/
+
 
 // P.79
 /*
