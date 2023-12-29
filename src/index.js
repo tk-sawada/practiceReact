@@ -6,6 +6,17 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
+const props = {
+  clor: 'White',
+  backgroundColor: 'Blue',
+  padding: 3
+}
+
+root.render(
+  <p style={props}>WINGSプロジェクト</p>
+);
+
+/*
 const attrs = {
   href: 'https://wings.msn.to/',
   download: false,
@@ -16,6 +27,7 @@ const attrs = {
 root.render(
   <a {...attrs}>サポートページ</a>
 );
+*/
 
 /*
 const content = `<h3>WINGSプロジェクト</h3>
