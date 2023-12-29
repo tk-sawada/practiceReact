@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import MyHello from './MyHello';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
+<MyHello myName={{name: '鈴木', age: 48}} />
+
 root.render(
-  <p>ああ</p>
+  <MyHello myName />
 )
 
 // P.79
