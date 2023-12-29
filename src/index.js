@@ -6,14 +6,26 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-/*
+const attrs = {
+  href: 'https://wings.msn.to/',
+  download: false,
+  target: '_blank',
+  rel: 'help'
+};
+
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <a {...attrs}>サポートページ</a>
+);
+
+/*
+const content = `<h3>WINGSプロジェクト</h3>
+  <img src="https://wings.msn.to/image/wings.jpg" />`;
+root.render(
+  <p dangerouslySetInnerHTML={{__html: content}}></p>
 );
 */
 
+/*
 setInterval(() =>{
   root.render(
     <>
@@ -22,6 +34,7 @@ setInterval(() =>{
     </>
   );
 }, 1000);
+*/
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
