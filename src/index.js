@@ -1,6 +1,8 @@
 import React from 'react';
-import StaticBasic from './StateBasic'
+//import StaticBasic from './StateBasic';
 
+import books from './books'
+import ForList from './ForList';
 //import EventBasic from './EventBasic';
 //import './EventBasic';
 //import MyHello from './MyHello';
@@ -13,8 +15,14 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
+  <ForList src={books} />
+);
+
+/*
+root.render(
   <StaticBasic init={0} />
 )
+*/
 
 /*
 root.render(
