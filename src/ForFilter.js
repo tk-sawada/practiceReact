@@ -1,4 +1,5 @@
 import React from "react";
+import books from "./books"
 
 export default function ForFilter({src}) {
     const lowPrice = books.filter(book => book.price <3500);
@@ -13,8 +14,7 @@ export default function ForFilter({src}) {
                     </dt>
                     <dd>{elem.summary}</dd>
                 </React.Fragment>
-                ))}
-            )
+            ))}
         </dl>
     )
 }
