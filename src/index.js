@@ -1,18 +1,26 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import './EventBasic';
+import StaticBasic from './StateBasic'
+
+//import EventBasic from './EventBasic';
+//import './EventBasic';
 //import MyHello from './MyHello';
 //import App from './App';
+
+import ReactDOM from 'react-dom/client';
+import './index.css';
 import reportWebVitals from './reportWebVitals';
-import EventBasic from './EventBasic';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
+root.render(
+  <StaticBasic init={0} />
+)
 
+/*
 root.render(
   <EventBasic type="time" />
 );
+*/
 
 /*
 <MyHello myName={{name: '鈴木', age: 48}} />
