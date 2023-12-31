@@ -1,8 +1,10 @@
 import React from 'react';
+import StyledPanel from './StyledPanel';
 //import StaticBasic from './StateBasic';
-
-import books from './books'
-import ForList from './ForList';
+//import books from './books';
+//import ForItem from './ForItem';
+//import ForSort from './ForSort';
+//import ForList from './ForList';
 //import EventBasic from './EventBasic';
 //import './EventBasic';
 //import MyHello from './MyHello';
@@ -12,11 +14,28 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <ForList src={books} />
+  <StyledPanel>
+    <p>メンバー募集中</p>
+    <p>ようこそ、WINGSプロジェクトへ！！</p>
+  </StyledPanel>
 );
+
+/*
+root.render(
+  <ForItem src={books} />
+);
+*/
+
+/*
+root.render(
+  <ForSort src={books} />
+);
+*/
+
 
 /*
 root.render(
