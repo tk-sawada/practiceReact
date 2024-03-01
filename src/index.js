@@ -1,8 +1,14 @@
 import React from 'react';
 import StyledPanel from './StyledPanel';
 //import StaticBasic from './StateBasic';
+<<<<<<< HEAD
 //import books from './books';
 //import ForItem from './ForItem';
+=======
+
+import books from './books';
+import ForItem from './ForItem';
+>>>>>>> 3361068c9f4a77a5b3d9fc030c457cdfb15d2203
 //import ForSort from './ForSort';
 //import ForList from './ForList';
 //import EventBasic from './EventBasic';
@@ -18,20 +24,27 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
+<<<<<<< HEAD
   <StyledPanel>
     <p>メンバー募集中</p>
     <p>ようこそ、WINGSプロジェクトへ！！</p>
   </StyledPanel>
+=======
+  <ForItem src={books} />
+>>>>>>> 3361068c9f4a77a5b3d9fc030c457cdfb15d2203
 );
 
 /*
 root.render(
+<<<<<<< HEAD
   <ForItem src={books} />
 );
 */
 
 /*
 root.render(
+=======
+>>>>>>> 3361068c9f4a77a5b3d9fc030c457cdfb15d2203
   <ForSort src={books} />
 );
 */
